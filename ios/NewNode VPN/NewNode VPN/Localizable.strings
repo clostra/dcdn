@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  NewNode VPN
+
+  Created by Mikhail Koroteev on 31.05.21.
+  Copyright © 2021 Clostra. All rights reserved.
+*/
+
+"info_title" = "How NewNode Works";
+"info_text" = "NewNode is a peer to peer mesh network which works as a personal pseudo-VPN to get around blocking or establish good internet connection when connectivity is sparse.\n\nNewNode works differently than a traditional VPN, which sends your connection to a specific server. Traditional VPNs are unfortunately quite easy to block by IP address. NewNode, instead, sends your traffic through a mesh network which can even make connections directly between nearby devices. This, along with encrypting and disguising the traffic, makes NewNode very robust against any kind of blocking.\n\nThere is no location selector because the NewNode network is globally distributed.";
+
+// Status
+"connected" = "CONNECTED";
+"disconnected" = "DISCONNECTED";
+"invalid" = "NOT CONFIGURED";
+"connecting" = "CONNECTING...";
+"reasserting" = "RECONNECTING...";
+"disconnecting" = "DISCONNECTING...";
+
+"hint_connected" = "tap to disconnect";
+"hint_disconnected" = "tap to connect\nto NewNode VPN";
+
+"usage" = "USAGE";
+"day" = "Day";
+"week" = "Week";
+"all_time" = "Max";
+"direct" = "Direct: ";
+"peers" = "Through peers: ";

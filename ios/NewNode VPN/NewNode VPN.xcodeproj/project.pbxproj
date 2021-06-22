@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C34FA8522D54A160001F694 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34FA8422D54A160001F694 /* NetworkExtension.framework */; };
+		0F0A7FF32667C9F20093B85D /* FontUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0A7FF22667C9F20093B85D /* FontUpdater.swift */; };
+		0F5C8AB92664F94A00D013D7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C8AB82664F94A00D013D7 /* Localizable.strings */; };
+		0F5C8ABC2664FB8800D013D7 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C8ABB2664FB8800D013D7 /* InfoViewController.swift */; };
+		0F7D6A602666DE1A0002A2E2 /* TimeFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D6A5F2666DE1A0002A2E2 /* TimeFrame.swift */; };
+		0F7D6A632666E8100002A2E2 /* DataVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D6A622666E8100002A2E2 /* DataVolume.swift */; };
+		0F7D6A662667003C0002A2E2 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D6A652667003C0002A2E2 /* SpinnerView.swift */; };
+		0FBB0AF726616E0F00D89502 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBB0AF626616E0F00D89502 /* Colors.xcassets */; };
+		0FBB0AFA2661789F00D89502 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB0AF92661789F00D89502 /* GradientView.swift */; };
+		3C34FA8522D54A160001F694 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34FA8422D54A160001F694 /* NetworkExtension.framework */; platformFilter = ios; };
 		3C3C057C22D6192600C68AF5 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34FA8422D54A160001F694 /* NetworkExtension.framework */; };
-		3C3C05A822DD3CB800C68AF5 /* LLAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C05A422DD3CB800C68AF5 /* LLAnimationManager.m */; };
-		3C3C05A922DD3CB800C68AF5 /* LLEyesLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C05A522DD3CB800C68AF5 /* LLEyesLayer.m */; };
-		3C3C05AA22DD3CB800C68AF5 /* LLSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C05A722DD3CB800C68AF5 /* LLSwitch.m */; };
 		3C3D5BDD24E457ED00F17659 /* NewNode.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3D5BCD24E3BA1E00F17659 /* NewNode.xcframework */; };
 		3C50125422D4AF5000F8487C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C50125322D4AF5000F8487C /* AppDelegate.swift */; };
 		3C50125622D4AF5000F8487C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C50125522D4AF5000F8487C /* ViewController.swift */; };
 		3C50125922D4AF5000F8487C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C50125722D4AF5000F8487C /* Main.storyboard */; };
 		3C50125B22D4AF5100F8487C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C50125A22D4AF5100F8487C /* Assets.xcassets */; };
 		3C50125E22D4AF5100F8487C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C50125C22D4AF5100F8487C /* LaunchScreen.storyboard */; };
-		3C50127122D4B10000F8487C /* Tunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3C50126922D4B10000F8487C /* Tunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C50127122D4B10000F8487C /* Tunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3C50126922D4B10000F8487C /* Tunnel.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3C5012C222D5316F00F8487C /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C50126B22D4B10000F8487C /* PacketTunnelProvider.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,16 +62,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F0A7FF22667C9F20093B85D /* FontUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontUpdater.swift; sourceTree = "<group>"; };
+		0F5C8AB82664F94A00D013D7 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		0F5C8ABB2664FB8800D013D7 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		0F7D6A5F2666DE1A0002A2E2 /* TimeFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFrame.swift; sourceTree = "<group>"; };
+		0F7D6A622666E8100002A2E2 /* DataVolume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataVolume.swift; sourceTree = "<group>"; };
+		0F7D6A652667003C0002A2E2 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		0FBB0AF626616E0F00D89502 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		0FBB0AF92661789F00D89502 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		3C34FA8322D54A160001F694 /* NewNode VPN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NewNode VPN.entitlements"; sourceTree = "<group>"; };
 		3C34FA8422D54A160001F694 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		3C34FA8622D560C80001F694 /* NewNode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewNode-Bridging-Header.h"; sourceTree = "<group>"; };
 		3C3C05A122DD3CB700C68AF5 /* NewNode VPN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewNode VPN-Bridging-Header.h"; sourceTree = "<group>"; };
-		3C3C05A222DD3CB800C68AF5 /* LLAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLAnimationManager.h; path = LLSwitch/LLAnimationManager.h; sourceTree = "<group>"; };
-		3C3C05A322DD3CB800C68AF5 /* LLEyesLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLEyesLayer.h; path = LLSwitch/LLEyesLayer.h; sourceTree = "<group>"; };
-		3C3C05A422DD3CB800C68AF5 /* LLAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLAnimationManager.m; path = LLSwitch/LLAnimationManager.m; sourceTree = "<group>"; };
-		3C3C05A522DD3CB800C68AF5 /* LLEyesLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLEyesLayer.m; path = LLSwitch/LLEyesLayer.m; sourceTree = "<group>"; };
-		3C3C05A622DD3CB800C68AF5 /* LLSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLSwitch.h; path = LLSwitch/LLSwitch.h; sourceTree = "<group>"; };
-		3C3C05A722DD3CB800C68AF5 /* LLSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLSwitch.m; path = LLSwitch/LLSwitch.m; sourceTree = "<group>"; };
 		3C3D5BCD24E3BA1E00F17659 /* NewNode.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NewNode.xcframework; path = ../../NewNode.xcframework; sourceTree = "<group>"; };
 		3C50125022D4AF5000F8487C /* NewNode VPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewNode VPN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C50125322D4AF5000F8487C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,19 +109,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3C3C05A022DD3CA100C68AF5 /* LLSwitch */ = {
-			isa = PBXGroup;
-			children = (
-				3C3C05A222DD3CB800C68AF5 /* LLAnimationManager.h */,
-				3C3C05A422DD3CB800C68AF5 /* LLAnimationManager.m */,
-				3C3C05A322DD3CB800C68AF5 /* LLEyesLayer.h */,
-				3C3C05A522DD3CB800C68AF5 /* LLEyesLayer.m */,
-				3C3C05A622DD3CB800C68AF5 /* LLSwitch.h */,
-				3C3C05A722DD3CB800C68AF5 /* LLSwitch.m */,
-			);
-			name = LLSwitch;
-			sourceTree = "<group>";
-		};
 		3C50124722D4AF5000F8487C = {
 			isa = PBXGroup;
 			children = (
@@ -137,15 +131,22 @@
 		3C50125222D4AF5000F8487C /* NewNode VPN */ = {
 			isa = PBXGroup;
 			children = (
-				3C3C05A022DD3CA100C68AF5 /* LLSwitch */,
 				3C34FA8322D54A160001F694 /* NewNode VPN.entitlements */,
 				3C3C05A122DD3CB700C68AF5 /* NewNode VPN-Bridging-Header.h */,
-				3C50125322D4AF5000F8487C /* AppDelegate.swift */,
-				3C50125522D4AF5000F8487C /* ViewController.swift */,
 				3C50125722D4AF5000F8487C /* Main.storyboard */,
 				3C50125A22D4AF5100F8487C /* Assets.xcassets */,
+				0FBB0AF626616E0F00D89502 /* Colors.xcassets */,
 				3C50125C22D4AF5100F8487C /* LaunchScreen.storyboard */,
+				0F5C8AB82664F94A00D013D7 /* Localizable.strings */,
 				3C50125F22D4AF5100F8487C /* Info.plist */,
+				3C50125322D4AF5000F8487C /* AppDelegate.swift */,
+				3C50125522D4AF5000F8487C /* ViewController.swift */,
+				0F5C8ABB2664FB8800D013D7 /* InfoViewController.swift */,
+				0FBB0AF92661789F00D89502 /* GradientView.swift */,
+				0F7D6A622666E8100002A2E2 /* DataVolume.swift */,
+				0F0A7FF22667C9F20093B85D /* FontUpdater.swift */,
+				0F7D6A652667003C0002A2E2 /* SpinnerView.swift */,
+				0F7D6A5F2666DE1A0002A2E2 /* TimeFrame.swift */,
 			);
 			path = "NewNode VPN";
 			sourceTree = "<group>";
@@ -258,7 +259,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5C8AB92664F94A00D013D7 /* Localizable.strings in Resources */,
 				3C50125E22D4AF5100F8487C /* LaunchScreen.storyboard in Resources */,
+				0FBB0AF726616E0F00D89502 /* Colors.xcassets in Resources */,
 				3C50125B22D4AF5100F8487C /* Assets.xcassets in Resources */,
 				3C50125922D4AF5000F8487C /* Main.storyboard in Resources */,
 			);
@@ -278,11 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C3C05AA22DD3CB800C68AF5 /* LLSwitch.m in Sources */,
 				3C50125622D4AF5000F8487C /* ViewController.swift in Sources */,
 				3C50125422D4AF5000F8487C /* AppDelegate.swift in Sources */,
-				3C3C05A822DD3CB800C68AF5 /* LLAnimationManager.m in Sources */,
-				3C3C05A922DD3CB800C68AF5 /* LLEyesLayer.m in Sources */,
+				0F5C8ABC2664FB8800D013D7 /* InfoViewController.swift in Sources */,
+				0F0A7FF32667C9F20093B85D /* FontUpdater.swift in Sources */,
+				0F7D6A632666E8100002A2E2 /* DataVolume.swift in Sources */,
+				0F7D6A602666DE1A0002A2E2 /* TimeFrame.swift in Sources */,
+				0FBB0AFA2661789F00D89502 /* GradientView.swift in Sources */,
+				0F7D6A662667003C0002A2E2 /* SpinnerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
